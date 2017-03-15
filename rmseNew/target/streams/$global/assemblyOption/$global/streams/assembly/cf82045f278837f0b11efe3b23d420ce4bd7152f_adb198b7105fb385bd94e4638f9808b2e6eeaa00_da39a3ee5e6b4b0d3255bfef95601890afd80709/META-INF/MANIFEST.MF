@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.hk2.api;version="2.4.0";uses:="javax.inj
+ ect,org.aopalliance.intercept,org.glassfish.hk2.extension,org.glassfi
+ sh.hk2.utilities,org.jvnet.hk2.annotations",org.glassfish.hk2.api.mes
+ saging;version="2.4.0";uses:="org.jvnet.hk2.annotations",org.glassfis
+ h.hk2.extension;version="2.4.0";uses:="org.glassfish.hk2.api",org.gla
+ ssfish.hk2.utilities;version="2.4.0";uses:="javax.inject,org.glassfis
+ h.hk2.api,org.glassfish.hk2.api.messaging,org.glassfish.hk2.utilities
+ .binding,org.jvnet.hk2.annotations",org.glassfish.hk2.utilities.bindi
+ ng;version="2.4.0";uses:="org.glassfish.hk2.api,org.glassfish.hk2.uti
+ lities",org.jvnet.hk2.annotations;version="2.4.0";uses:="org.glassfis
+ h.hk2.api",com.sun.hk2.component;version="2.4.0"
+Built-By: java_re
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: HK2 API module
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Oracle Corporation
+Build-Jdk: 1.7.0_67
+Bundle-Version: 2.4.0.b10
+Bnd-LastModified: 1423253942007
+Bundle-ManifestVersion: 2
+Bundle-License: https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.h
+ tml
+Bundle-Description: HK2 API module
+Bundle-SymbolicName: org.glassfish.hk2.api
+Bundle-DocURL: http://www.oracle.com
+Import-Package: javax.inject,org.aopalliance.intercept;version="[1.0,2
+ )",org.glassfish.hk2.api.messaging;version="[2.4,3)",org.glassfish.hk
+ 2.extension;version="[2.4,3)",org.glassfish.hk2.osgiresourcelocator;v
+ ersion="[1.0,2)";resolution:=optional,org.glassfish.hk2.utilities.gen
+ eral;version="[2.4,3)",org.glassfish.hk2.utilities.reflection;version
+ ="[2.4,3)",org.glassfish.hk2.utilities.reflection.internal;version="[
+ 2.4,3)",org.jvnet.hk2.annotations;version="[2.4,3)",org.jvnet.hk2.com
+ ponent;version="[2.4,3)"
+Archiver-Version: Plexus Archiver
+

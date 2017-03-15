@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.3 
+Created-By: Apache Jakarta Maven
+Built-By: im
+Package: org.apache.commons.collections
+Build-Jdk: 1.4.2_04
+Extension-Name: commons-collections
+Specification-Title: Commons Collections
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.commons.collections
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Version: 3.1-RC1
+

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.jvnet.mimepull;version="1.9.3"
+Implementation-Title: MIME streaming extension
+Implementation-Version: 1.9.3
+Built-By: mghudson
+Tool: Bnd-0.0.311
+Bundle-Name: MIME streaming extension
+Created-By: 1.6.0_35 (Sun Microsystems Inc.)
+Bundle-Vendor: Oracle Corporation
+Implementation-Vendor: Oracle Corporation
+Implementation-Vendor-Id: org.jvnet.mimepull
+Bundle-Version: 1.9.3
+Build-Jdk: 1.6.0_35
+Bnd-LastModified: 1366364475138
+Implementation-Build-Id: tags/mimepull-1.9.3-198, 2013-04-19T09:41:12+
+ 0000
+Bundle-ManifestVersion: 2
+Bundle-Description: Provides a streaming API to access attachments par
+ ts in a MIME message.
+Bundle-License: https://glassfish.java.net/public/CDDL+GPL_1_1.html, h
+ ttps://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-SymbolicName: org.jvnet.mimepull
+Import-Package: org.jvnet.mimepull;version="1.9"
+Bundle-DocURL: http://www.oracle.com/
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409842882626
+Build-Jdk: 1.8.0_05
+Built-By: ryantenney
+Bundle-Description: A dependency-less package of just the annotations us
+ ed by other Metrics modules.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Annotations for Metrics
+Bundle-SymbolicName: io.dropwizard.metrics.annotation
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.annotation;version="3.1.0"
+Implementation-Title: Annotations for Metrics
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 3.1.0
+Tool: Bnd-1.50.0

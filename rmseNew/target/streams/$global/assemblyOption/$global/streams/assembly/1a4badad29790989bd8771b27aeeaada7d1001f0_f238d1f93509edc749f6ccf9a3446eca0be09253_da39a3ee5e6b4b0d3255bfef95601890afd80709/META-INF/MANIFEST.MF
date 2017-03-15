@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409843096974
+Build-Jdk: 1.8.0_05
+Built-By: ryantenney
+Bundle-Description: A set of utility servlets for Metrics, allowing you 
+ to expose valuable information about        your production environment
+ .
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Metrics Utility Servlets
+Bundle-SymbolicName: io.dropwizard.metrics.servlets
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.servlets;uses:="javax.servlet,javax
+ .servlet.http,com.codahale.metrics,com.codahale.metrics.health,com.fast
+ erxml.jackson.databind,com.codahale.metrics.json,com.fasterxml.jackson.
+ databind.util,com.codahale.metrics.jvm";version="3.1.0"
+Implementation-Title: Metrics Utility Servlets
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 3.1.0
+Import-Package: com.codahale.metrics;version="[3.1,4)",com.codahale.metr
+ ics.health;version="[3.1,4)",com.codahale.metrics.json;version="[3.1,4)
+ ",com.codahale.metrics.jvm;version="[3.1,4)",com.fasterxml.jackson.data
+ bind;version="[2.4,3)",com.fasterxml.jackson.databind.util;version="[2.
+ 4,3)",javax.servlet;version="[2.5.0,4.0.0)",javax.servlet.http;version=
+ "[2.5.0,4.0.0)"
+Tool: Bnd-1.50.0

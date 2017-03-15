@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409843006756
+Build-Jdk: 1.8.0_05
+Built-By: ryantenney
+Bundle-Description: A set of extensions for Jetty 9.1 and higher which p
+ rovide instrumentation of thread pools, connector        metrics, and a
+ pplication latency and utilization.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Metrics Integration for Jetty 9.1 and higher
+Bundle-SymbolicName: io.dropwizard.metrics.jetty9
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.jetty9;uses:="org.eclipse.jetty.ser
+ ver,org.eclipse.jetty.io,com.codahale.metrics,org.eclipse.jetty.util.co
+ mponent,javax.servlet,javax.servlet.http,org.eclipse.jetty.http,org.ecl
+ ipse.jetty.server.handler,org.eclipse.jetty.util.thread,org.eclipse.jet
+ ty.util.annotation";version="3.1.0"
+Implementation-Title: Metrics Integration for Jetty 9.1 and higher
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 3.1.0
+Import-Package: com.codahale.metrics;version="[3.1,4)",javax.servlet;ver
+ sion="[2.5.0,4.0.0)",javax.servlet.http;version="[2.5.0,4.0.0)",org.ecl
+ ipse.jetty.http;version="[9.2,10)",org.eclipse.jetty.io;version="[9.2,1
+ 0)",org.eclipse.jetty.server;version="[9.2,10)",org.eclipse.jetty.serve
+ r.handler;version="[9.2,10)",org.eclipse.jetty.util.annotation;version=
+ "[9.2,10)",org.eclipse.jetty.util.component;version="[9.2,10)",org.ecli
+ pse.jetty.util.thread;version="[9.2,10)"
+Tool: Bnd-1.50.0

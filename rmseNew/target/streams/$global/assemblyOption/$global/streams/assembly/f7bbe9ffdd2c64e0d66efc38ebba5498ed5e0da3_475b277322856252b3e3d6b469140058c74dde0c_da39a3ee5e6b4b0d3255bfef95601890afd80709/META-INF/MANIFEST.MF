@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409842919312
+Build-Jdk: 1.8.0_05
+Built-By: ryantenney
+Bundle-Description: An addition to Metrics which provides the ability to
+  run application-specific health checks,        allowing you to check y
+ our application's heath in production.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Metrics Health Checks
+Bundle-SymbolicName: io.dropwizard.metrics.healthchecks
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.health;uses:="org.slf4j";version="3
+ .1.0",com.codahale.metrics.health.jvm;uses:="com.codahale.metrics.jvm,c
+ om.codahale.metrics.health";version="3.1.0"
+Implementation-Title: Metrics Health Checks
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 3.1.0
+Import-Package: com.codahale.metrics.jvm;version="[3.1,4)";resolution:=o
+ ptional,org.slf4j;version="[1.6.0,2.0.0)"
+Tool: Bnd-1.50.0

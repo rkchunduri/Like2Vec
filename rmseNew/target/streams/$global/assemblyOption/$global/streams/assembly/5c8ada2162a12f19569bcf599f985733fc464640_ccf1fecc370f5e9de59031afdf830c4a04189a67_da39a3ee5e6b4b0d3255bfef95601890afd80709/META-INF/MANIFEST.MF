@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409842954686
+Build-Jdk: 1.8.0_05
+Built-By: ryantenney
+Bundle-Description: An Apache HttpClient wrapper providing Metrics instr
+ umentation of connection pools, request        durations and rates, and
+  other useful information.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Metrics Integration for Apache HttpClient
+Bundle-SymbolicName: io.dropwizard.metrics.httpclient
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.httpclient;uses:="org.apache.http.c
+ lient,com.codahale.metrics,org.apache.http,org.apache.http.client.utils
+ ,org.apache.http.config,org.apache.http.pool,org.apache.http.conn,org.a
+ pache.http.conn.ssl,org.apache.http.impl.conn,org.apache.http.conn.sock
+ et,org.apache.http.conn.routing,org.apache.http.protocol,org.apache.htt
+ p.impl.client";version="3.1.0"
+Implementation-Title: Metrics Integration for Apache HttpClient
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 3.1.0
+Import-Package: com.codahale.metrics;version="[3.1,4)",org.apache.http,o
+ rg.apache.http.client,org.apache.http.client.utils,org.apache.http.conf
+ ig,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.co
+ nn.socket,org.apache.http.conn.ssl,org.apache.http.impl.client,org.apac
+ he.http.impl.conn,org.apache.http.pool,org.apache.http.protocol
+Tool: Bnd-1.50.0

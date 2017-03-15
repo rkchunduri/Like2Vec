@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: colen
+Build-Jdk: 1.5.0_22
+Specification-Title: Apache OpenNLP UIMA Annotators
+Specification-Version: 1.5.3
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Apache OpenNLP UIMA Annotators
+Implementation-Version: 1.5.3
+Implementation-Vendor-Id: org.apache.opennlp
+Implementation-Vendor: The Apache Software Foundation
+

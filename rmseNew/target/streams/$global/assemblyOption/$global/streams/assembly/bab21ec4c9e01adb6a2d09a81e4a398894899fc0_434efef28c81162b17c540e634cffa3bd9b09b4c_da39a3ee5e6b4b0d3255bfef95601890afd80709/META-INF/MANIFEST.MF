@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381889304975
+Build-Jdk: 1.7.0_25
+Built-By: tatu
+Bundle-Description: Library for introspecting types with full generic in
+ formation        including resolving of field and method types.
+Bundle-DocURL: http://fasterxml.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ClassMate
+Bundle-SymbolicName: classmate
+Bundle-Vendor: fasterml.com
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.classmate;uses:="com.fasterxml.classmate.m
+ embers,com.fasterxml.classmate.types";version="1.0.0",com.fasterxml.cla
+ ssmate.members;uses:="com.fasterxml.classmate";version="1.0.0",com.fast
+ erxml.classmate.types;uses:="com.fasterxml.classmate,com.fasterxml.clas
+ smate.members";version="1.0.0"
+Tool: Bnd-1.50.0

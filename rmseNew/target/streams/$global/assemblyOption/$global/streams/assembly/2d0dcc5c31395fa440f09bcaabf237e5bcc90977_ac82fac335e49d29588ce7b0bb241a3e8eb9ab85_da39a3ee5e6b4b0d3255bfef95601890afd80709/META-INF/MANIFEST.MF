@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Implementation-Title: nd4j-cpu
+Implementation-Version: 0.4-rc3.8
+Archiver-Version: Plexus Archiver
+Built-By: agibsonccc
+Specification-Vendor: Skymind
+Specification-Title: nd4j-cpu
+Class-Path: ./javacpp.jar nd4j-x86.jar arpack_combined_all-0.1.jar cor
+ e-1.1.2.jar netlib-native_ref-osx-x86_64-1.1-natives.jar native_ref-j
+ ava-1.1.jar jniloader-1.1.jar netlib-native_ref-linux-x86_64-1.1-nati
+ ves.jar netlib-native_ref-linux-i686-1.1-natives.jar netlib-native_re
+ f-win-x86_64-1.1-natives.jar netlib-native_ref-win-i686-1.1-natives.j
+ ar netlib-native_ref-linux-armhf-1.1-natives.jar netlib-native_system
+ -osx-x86_64-1.1-natives.jar native_system-java-1.1.jar netlib-native_
+ system-linux-x86_64-1.1-natives.jar netlib-native_system-linux-i686-1
+ .1-natives.jar netlib-native_system-linux-armhf-1.1-natives.jar netli
+ b-native_system-win-x86_64-1.1-natives.jar netlib-native_system-win-i
+ 686-1.1-natives.jar jblas-1.2.4.jar nd4j-api-0.4-rc3.8.jar junit-4.12
+ .jar hamcrest-core-1.3.jar slf4j-api-1.7.10.jar netty-buffer-4.0.28.F
+ inal.jar netty-common-4.0.28.Final.jar lombok-1.16.4.jar nd4j-common-
+ 0.4-rc3.8.jar reflections-0.9.10.jar javassist-3.19.0-GA.jar annotati
+ ons-2.0.1.jar guava-18.0.jar commons-io-2.4.jar commons-math3-3.4.1.j
+ ar commons-lang3-3.3.1.jar javacpp-0.11.jar
+Implementation-Vendor: Skymind
+Name: org/nd4j/linalg/cpu/javacpp
+Created-By: Apache Maven 3.2.3
+Build-Jdk: 1.8.0_31
+Specification-Version: 0.4-rc3.8
+

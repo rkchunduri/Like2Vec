@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: javax.el;version="3.0.0",com.sun.el.parser;uses:="java
+ x.el,com.sun.el.lang,com.sun.el.util,com.sun.el";version="3.0.0",com.
+ sun.el.lang;uses:="javax.el,com.sun.el.parser,com.sun.el.util,com.sun
+ .el";version="3.0.0",com.sun.el.stream;uses:="javax.el,com.sun.el.lan
+ g";version="3.0.0",com.sun.el.util;uses:="javax.el,com.sun.el.lang";v
+ ersion="3.0.0",com.sun.el;uses:="javax.el,com.sun.el.parser,com.sun.e
+ l.lang,com.sun.el.stream,com.sun.el.util";version="3.0.0"
+Implementation-Version: 3.0.0
+Built-By: kichung
+Specification-Vendor: Oracle Corporation
+Tool: Bnd-0.0.255
+Bundle-Name: Expression Language 3.0
+Created-By: 1.7.0_09 (Oracle Corporation)
+Bundle-Vendor: GlassFish Community
+Implementation-Vendor: Oracle Corporation
+Bundle-Version: 3.0.0
+Build-Jdk: 1.7.0_09
+Bnd-LastModified: 1366931010124
+Bundle-ManifestVersion: 2
+Bundle-License: https://glassfish.dev.java.net/nonav/public/CDDL+GPL.h
+ tml
+Bundle-Description: Expression Language 3.0 API and Implementation
+Specification-Version: 3.0
+Import-Package: com.sun.el;version="3.0.0",com.sun.el.lang;version="3.
+ 0.0",com.sun.el.parser;version="3.0.0",com.sun.el.stream;version="3.0
+ .0",com.sun.el.util;version="3.0.0",javax.el;version="3.0.0"
+Bundle-SymbolicName: com.sun.el.javax.el
+Bundle-DocURL: http://glassfish.org
+Extension-Name: javax.el
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: nd4s
+Implementation-Version: 0.4-rc3.8
+Specification-Vendor: org.nd4j
+Specification-Title: nd4s
+Implementation-Vendor-Id: org.nd4j
+Specification-Version: 0.4-rc3.8
+Implementation-Vendor: org.nd4j
+

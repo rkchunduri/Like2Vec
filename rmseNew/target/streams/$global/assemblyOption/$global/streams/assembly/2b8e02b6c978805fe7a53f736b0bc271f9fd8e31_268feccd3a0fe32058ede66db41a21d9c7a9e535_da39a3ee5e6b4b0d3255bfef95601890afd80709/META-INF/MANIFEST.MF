@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: Java Advanced Imaging Image I/O Tools API core (
+ standalone)
+Implementation-Version: 1.3.0
+Archiver-Version: Plexus Archiver
+Built-By: stain
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Title: Java Advanced Imaging
+url: https://github.com/jai-imageio/jai-imageio-core
+Implementation-Vendor: https://github.com/jai-imageio/ jai-imageio Git
+ Hub group
+Extension-Name: com.github.jai-imageio-jai-imageio-core
+Created-By: Apache Maven 3.2.1
+Build-Jdk: 1.8.0_40-internal
+Specification-Version: 1.1-mr
+

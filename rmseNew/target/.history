@@ -1,0 +1,7 @@
+compile
+about
+compile
+reload
+sbt about
+about
+compile

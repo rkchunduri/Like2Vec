@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1426079086030
+Build-Jdk: 1.8.0
+Built-By: jerseyrobot
+Bundle-Description: Jersey Multipart entity providers support module.
+Bundle-DocURL: http://www.oracle.com/
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-media-multipart
+Bundle-SymbolicName: org.glassfish.jersey.media.jersey-media-multipart
+Bundle-Vendor: Oracle Corporation
+Bundle-Version: 2.17.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.glassfish.jersey.media.multipart;uses:="org.glassfis
+ h.jersey.internal.util.collection,org.glassfish.jersey.message,javax.ws
+ .rs.ext,javax.ws.rs.core,javax.ws.rs,org.glassfish.jersey.message.inter
+ nal,org.jvnet.mimepull,org.glassfish.jersey.server.model,org.glassfish.
+ jersey.internal.util";version="2.17.0",org.glassfish.jersey.media.multi
+ part.file;uses:="javax.ws.rs.core,org.glassfish.jersey.media.multipart"
+ ;version="2.17.0"
+Import-Package: javax.inject;version="[1.0,2)",javax.ws.rs;version="[2.0
+ ,3)",javax.ws.rs.core;version="[2.0,3)",javax.ws.rs.ext;version="[2.0,3
+ )",jersey.repackaged.com.google.common.base;version="[2.17,3)",jersey.r
+ epackaged.com.google.common.collect;version="[2.17,3)",org.glassfish.hk
+ 2.api;version="[2.4,3)",org.glassfish.hk2.utilities.binding;version="[2
+ .4,3)",org.glassfish.jersey.internal.inject;version="[2.17,3)",org.glas
+ sfish.jersey.internal.l10n;version="[2.17,3)",org.glassfish.jersey.inte
+ rnal.util;version="[2.17,3)",org.glassfish.jersey.internal.util.collect
+ ion;version="[2.17,3)",org.glassfish.jersey.message;version="[2.17,3)",
+ org.glassfish.jersey.message.internal;version="[2.17,3)",org.glassfish.
+ jersey.server;version="[2.17,3)";resolution:=optional,org.glassfish.jer
+ sey.server.internal.inject;version="[2.17,3)";resolution:=optional,org.
+ glassfish.jersey.server.model;version="[2.17,3)";resolution:=optional,o
+ rg.glassfish.jersey.server.spi.internal;version="[2.17,3)";resolution:=
+ optional,org.jvnet.mimepull;version="[1.9,2)"
+Tool: Bnd-1.50.0

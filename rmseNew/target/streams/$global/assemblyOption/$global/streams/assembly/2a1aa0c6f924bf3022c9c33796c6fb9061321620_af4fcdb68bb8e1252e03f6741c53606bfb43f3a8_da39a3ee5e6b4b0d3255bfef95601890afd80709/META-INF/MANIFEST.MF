@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Typesafe Inc.
+Implementation-Title: akka-contrib
+Implementation-Version: 2.3.4
+Implementation-Vendor-Id: com.typesafe.akka
+Specification-Vendor: Typesafe Inc.
+Specification-Title: akka-contrib
+Implementation-URL: http://akka.io/
+Specification-Version: 2.3.4
+

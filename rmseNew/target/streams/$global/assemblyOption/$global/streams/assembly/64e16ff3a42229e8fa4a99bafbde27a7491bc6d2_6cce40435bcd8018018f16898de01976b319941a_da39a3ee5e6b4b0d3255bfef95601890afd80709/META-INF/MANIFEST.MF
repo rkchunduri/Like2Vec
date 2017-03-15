@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: oheger
+Build-Jdk: 1.6.0_30
+Implementation-Build: tags/CONFIGURATION_1_8RC1@r1236874; 2012-01-27 2
+ 1:39:19+0100
+Implementation-Title: Commons Configuration
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 1.8
+Specification-Title: Commons Configuration
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.8
+X-Compile-Source-JDK: 1.5
+X-Compile-Target-JDK: 1.5
+Export-Package: org.apache.commons.configuration.web;version="1.8",org
+ .apache.commons.configuration.reloading;version="1.8",org.apache.comm
+ ons.configuration.tree;version="1.8",org.apache.commons.configuration
+ .event;version="1.8",org.apache.commons.configuration.plist;version="
+ 1.8",org.apache.commons.configuration.tree.xpath;version="1.8",org.ap
+ ache.commons.configuration.beanutils;version="1.8",org.apache.commons
+ .configuration.interpol;version="1.8",org.apache.commons.configuratio
+ n;version="1.8",org.apache.commons.configuration.resolver;version="1.8"
+Private-Package: .
+Tool: Bnd-1.43.0
+Bundle-Name: Commons Configuration
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.8.0
+Bnd-LastModified: 1327696771177
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Tools to assist in the reading of configuration/pr
+ eferences files in        various formats
+Import-Package: javax.naming,javax.servlet,javax.sql,javax.xml.parsers
+ ,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.stre
+ am,org.apache.commons.beanutils,org.apache.commons.codec.binary,org.a
+ pache.commons.collections,org.apache.commons.digester,org.apache.comm
+ ons.digester.substitution,org.apache.commons.digester.xmlrules,org.ap
+ ache.commons.jexl2,org.apache.commons.jxpath,org.apache.commons.jxpat
+ h.ri,org.apache.commons.jxpath.ri.compiler,org.apache.commons.jxpath.
+ ri.model,org.apache.commons.lang,org.apache.commons.lang.exception,or
+ g.apache.commons.lang.text,org.apache.commons.logging,org.apache.comm
+ ons.logging.impl,org.apache.commons.vfs2,org.apache.commons.vfs2.prov
+ ider,org.apache.xml.resolver,org.apache.xml.resolver.helpers,org.apac
+ he.xml.resolver.readers,org.apache.xml.resolver.tools,org.w3c.dom,org
+ .xml.sax,org.xml.sax.helpers
+Bundle-DocURL: http://commons.apache.org/configuration/
+Include-Resource: digesterRules.xml=src/main/resources/digesterRules.x
+ ml,properties.dtd=src/main/resources/properties.dtd,PropertyList-1.0.
+ dtd=src/main/resources/PropertyList-1.0.dtd,META-INF/LICENSE.txt=LICE
+ NSE.txt,META-INF/NOTICE.txt=NOTICE.txt
+Bundle-SymbolicName: org.apache.commons.configuration
+

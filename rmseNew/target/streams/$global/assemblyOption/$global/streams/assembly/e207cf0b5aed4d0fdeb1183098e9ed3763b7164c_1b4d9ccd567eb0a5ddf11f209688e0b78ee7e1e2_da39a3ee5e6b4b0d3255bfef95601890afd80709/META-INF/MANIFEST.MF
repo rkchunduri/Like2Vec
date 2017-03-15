@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.3
+Created-By: 1.8.0_45-b14 (Oracle Corporation)
+Main-Class: org.apache.zookeeper.server.quorum.QuorumPeer
+Built-By: michi
+Built-At: 07/28/2015 07:30 GMT
+Built-On: nuc
+Implementation-Title: org.apache.zookeeper
+Implementation-Version: 3.5.1-alpha-1693007
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Name: ZooKeeper Bundle
+Bundle-SymbolicName: org.apache.hadoop.zookeeper
+Bundle-ManifestVersion: 2
+Bundle-Version: 3.5.1-alpha
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://hadoop.apache.org/zookeeper
+Import-Package: javax.management;resolution:=optional,javax.security.a
+ uth.callback,javax.security.auth.login,javax.security.sasl,org.slf4j;
+ version="[1.6,2)",org.jboss.netty.buffer;resolution:=optional;version
+ ="[3.2,4)",org.jboss.netty.channel;resolution:=optional;version="[3.2
+ ,4)",org.jboss.netty.channel.group;resolution:=optional;version="[3.2
+ ,4)",org.jboss.netty.channel.socket.nio;resolution:=optional;version=
+ "[3.2,4)",org.osgi.framework;resolution:=optional;version="[1.5,2)",o
+ rg.osgi.util.tracker;resolution:=optional;version="[1.4,2)",org.ietf.
+ jgss
+Export-Package: org.apache.zookeeper;version="3.5.1-alpha",org.apache.
+ zookeeper.client;version="3.5.1-alpha",org.apache.zookeeper.data;vers
+ ion="3.5.1-alpha",org.apache.zookeeper.version;version="3.5.1-alpha",
+ org.apache.zookeeper.server;version="3.5.1-alpha",org.apache.zookeepe
+ r.server.auth;version="3.5.1-alpha",org.apache.zookeeper.server.persi
+ stence;version="3.5.1-alpha",org.apache.zookeeper.server.quorum;versi
+ on="3.5.1-alpha",org.apache.zookeeper.common;version="3.5.1-alpha"
+

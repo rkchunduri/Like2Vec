@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1423275799057
+Build-Jdk: 1.7.0_25
+Built-By: tatu
+Bundle-Description: Add-on module for Jackson (http://jackson.codehaus.o
+ rg) to supportJoda (http://joda-time.sourceforge.net/) data types.
+Bundle-DocURL: http://wiki.fasterxml.com/JacksonModuleJoda
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson-datatype-Joda
+Bundle-SymbolicName: com.fasterxml.jackson.datatype.jackson-datatype-jod
+ a
+Bundle-Vendor: FasterXML
+Bundle-Version: 2.5.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.jackson.datatype.joda;version="2.5.1",com.
+ fasterxml.jackson.datatype.joda.cfg;version="2.5.1",com.fasterxml.jacks
+ on.datatype.joda.deser;version="2.5.1",com.fasterxml.jackson.datatype.j
+ oda.deser.key;version="2.5.1",com.fasterxml.jackson.datatype.joda.ser;v
+ ersion="2.5.1"
+Implementation-Build-Date: 2015-02-06 18:23:14-0800
+Implementation-Title: Jackson-datatype-Joda
+Implementation-Vendor: FasterXML
+Implementation-Vendor-Id: com.fasterxml.jackson.datatype
+Implementation-Version: 2.5.1
+Import-Package: com.fasterxml.jackson.annotation;version="[2.5,3)",com.f
+ asterxml.jackson.core;version="[2.5,3)",com.fasterxml.jackson.core.util
+ ;version="[2.5,3)",com.fasterxml.jackson.databind;version="[2.5,3)",com
+ .fasterxml.jackson.databind.deser.std;version="[2.5,3)",com.fasterxml.j
+ ackson.databind.introspect;version="[2.5,3)",com.fasterxml.jackson.data
+ bind.jsonFormatVisitors;version="[2.5,3)",com.fasterxml.jackson.databin
+ d.jsontype;version="[2.5,3)",com.fasterxml.jackson.databind.module;vers
+ ion="[2.5,3)",com.fasterxml.jackson.databind.node;version="[2.5,3)",com
+ .fasterxml.jackson.databind.ser;version="[2.5,3)",com.fasterxml.jackson
+ .databind.ser.std;version="[2.5,3)",org.joda.time;version="[2.2,3)",org
+ .joda.time.format;version="[2.2,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: Jackson-datatype-Joda
+Specification-Vendor: FasterXML
+Specification-Version: 2.5.1
+Tool: Bnd-2.3.0.201405100607
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6

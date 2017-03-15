@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1423655455221
+Build-Jdk: 1.8.0
+Built-By: jerseyrobot
+Bundle-Description: Jersey extension module enabling automatic registrat
+ ion of JAX-RS providers (MBW/MBR/EM) via META-INF/services mechanism.
+Bundle-DocURL: http://www.oracle.com/
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-ext-metainf-services
+Bundle-SymbolicName: org.glassfish.jersey.ext.jersey-metainf-services
+Bundle-Vendor: Oracle Corporation
+Bundle-Version: 2.16.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.annotation;version="[1.2,2)",javax.ws.rs;version="
+ [2.0,3)",javax.ws.rs.core;version="[2.0,3)",javax.ws.rs.ext;version="[2
+ .0,3)",org.glassfish.hk2.utilities;version="[2.4,3)",org.glassfish.hk2.
+ utilities.binding;version="[2.4,3)",org.glassfish.jersey.internal;versi
+ on="[2.16,3)",org.glassfish.jersey.internal.spi;version="[2.16,3)"
+Tool: Bnd-1.50.0

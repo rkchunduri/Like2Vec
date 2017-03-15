@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+Built-By: hen
+Build-Jdk: 1.5.0_22
+Implementation-Title: Commons Lang
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 3.0
+Specification-Title: Commons Lang
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 3.0
+X-Compile-Source-JDK: 1.5
+X-Compile-Target-JDK: 1.5
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bnd-LastModified: 1310617809705
+Export-Package: org.apache.commons.lang3.concurrent;version="3.0",org.
+ apache.commons.lang3.event;version="3.0",org.apache.commons.lang3.mut
+ able;version="3.0",org.apache.commons.lang3.text.translate;version="3
+ .0",org.apache.commons.lang3.text;version="3.0",org.apache.commons.la
+ ng3.tuple;version="3.0",org.apache.commons.lang3.math;version="3.0",o
+ rg.apache.commons.lang3;version="3.0",org.apache.commons.lang3.except
+ ion;version="3.0",org.apache.commons.lang3.reflect;version="3.0",org.
+ apache.commons.lang3.builder;version="3.0",org.apache.commons.lang3.t
+ ime;version="3.0"
+Bundle-Version: 3.0
+Bundle-Description: Commons Lang, a package of Java utility classes fo
+ r the        classes that are in java.lang's hierarchy, or are consid
+ ered to be so        standard as to justify existence in java.lang.
+Bundle-Name: Commons Lang
+Bundle-DocURL: http://commons.apache.org/lang/
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Bundle-SymbolicName: org.apache.commons.lang
+Tool: Bnd-0.0.255
+
