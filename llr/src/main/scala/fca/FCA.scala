@@ -1,0 +1,4 @@
+package fca
+
+object FCA{
+}

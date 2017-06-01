@@ -24,8 +24,10 @@ object LSHInput {
 
     val model1 = ann.train(points)
     
- val nn=model1.neighbors(10).map{case(user,neighborsList) =>(user,neighborsList.toList)}
-     nn.saveAsTextFile("LSHOPforRMSE") 
+    
+   val nn=model1.neighbors(10).map{case(user,neighborsList) =>(user,neighborsList.map(_._2).reduce((acc, elem) => (acc + elem)),neighborsList.toList)}
+  
+   nn.saveAsTextFile("LSHOPforRMSE1") 
    
    
  }

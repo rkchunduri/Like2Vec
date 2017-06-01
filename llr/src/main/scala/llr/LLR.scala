@@ -12,17 +12,19 @@ import org.apache.spark.SparkConf
 case class Interaction(val user: String, val item: String)
 
 object LLR {
-  val hdfs ="hdfs://ip-172-31-23-118.us-west-2.compute.internal:8020"
-    // val inputFile =hdfs+"/user/hadoop/trainset"
+ val hdfs ="hdfs://ec2-52-88-52-106.us-west-2.compute.amazonaws.com"
+  val inputFile =hdfs+"/user/hadoop/ratings_train"
   def main(args: Array[String]) {
     userSimilarites(
       "master",
-       args(0),
+       //args(0),
+      inputFile,
        ",",
        2,
        100,
        500,
-       12345)
+       12345,
+       0.3)
   }
    
   def userSimilarites(
@@ -32,15 +34,16 @@ object LLR {
     numSlices:Int,
     maxSimilarItemsperItem:Int,
     maxInteractionsPerUserOrItem:Int,
-    seed:Int){
-   // System.setProperty("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-  //  System.setProperty("spark.kryo.registrator", classOf[CoocRegistrator].getName)
- //  System.setProperty("spark.kryo.referenceTracking", "false")
-//   System.setProperty("spark.kryoserializer.buffer.mb", "8")
+    seed:Int,
+    threshold:Double){
+  // System.setProperty("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+   // System.setProperty("spark.kryo.registrator", classOf[CoocRegistrator].getName)
+  //System.setProperty("spark.kryo.referenceTracking", "false")
+ // System.setProperty("spark.kryoserializer.buffer.mb", "8")
     System.setProperty("spark.locality.wait", "10000")
-    val sc = new SparkContext("local","CooccurrenceAnalysis");
+ // val sc = new SparkContext("local","CooccurrenceAnalysis");
 
-//  val sc = new SparkContext(new SparkConf().setAppName("CooccurrenceAnalysis"));
+val sc = new SparkContext(new SparkConf().setAppName("CooccurrenceAnalysis"));
 
     //Reading Data from input file,RDD
     val rawInteractions = sc.textFile(interactionsFile)
@@ -89,13 +92,19 @@ object LLR {
             interactionsWithBnotA, 
             interactionsWithNeitherAnorB)
         val logLikelihoodSimilarity = 1.0 - 1.0 / (1.0 + logLikelihood)
-        ((userA, userB), logLikelihoodSimilarity)
+    
+        
+   ((userA, userB), logLikelihoodSimilarity)
+      
+   
+   
+  //loglikelihoodData.toString().replaceAll("\\(","").replaceAll("\\)","").replaceAll(",", " ")
       }
   })
     
-   // similarities.repartition(1).saveAsTextFile(hdfs+"/user/hadoop/LlrTrainSet");
+  // similarities.repartition(1).saveAsTextFile(hdfs+"/user/hadoop/LlrTrainSet");
     
-  similarities.repartition(1).saveAsTextFile("./src/main/resources/CellDataOP");
+ similarities.filter(f=>f._2.toDouble >threshold).repartition(1).saveAsTextFile(hdfs+"/user/hadoop/LLROP");
   sc.stop()
 }
 
